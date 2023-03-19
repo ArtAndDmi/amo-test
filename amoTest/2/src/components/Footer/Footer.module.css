@@ -1,0 +1,134 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 12.4rem;
+    margin-bottom: 2rem ;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+.columnContacts{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 45rem;
+}
+
+.title{
+    height: 1.7rem;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #656566;
+    margin: 1rem 0;
+}
+
+.text{
+    height: 1.9rem;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    margin: 1rem 0;
+    color: #E4E5EA;
+}
+
+.phoneNumber{
+    height: 1.9rem;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    margin: 1rem 0;
+    color: #E4E5EA;
+}
+
+.img{
+    margin: 1rem 0 1rem 1.3rem;
+    height: 1.3rem;
+}
+
+img:last-child{
+    margin-right: 0;
+}
+
+.licence{
+    height: 3.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    margin-top: 9rem;
+}
+
+.privacyPolicy{
+    text-decoration: underline;
+}
+
+@media (max-width: 400px) {
+    .background{
+        width: 100%;
+        background-color: #101010;
+        padding-top: 2rem;
+    }
+    .footer{
+        flex-direction: column;
+        width: 95%;
+        margin: 0 auto;
+    }
+    .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        width: 100%;
+
+    }
+
+    .title{
+        margin: 2rem 0;
+    }
+    .text {
+        width: 15rem;
+        height: 2.5rem;
+        margin-top: 1rem;
+    }
+    .columnContacts{
+        text-align: left;
+    }
+    .img{
+        margin: 0.5rem 1.3rem 0.5rem 0;
+        height: 1.6rem;
+    }
+    .licence{
+        margin-top: 5rem;
+        margin-bottom: 2rem;
+    }
+    .phoneNumber{
+        font-size: 1.7rem;
+    }
+    .column:last-child{
+        margin-left: 5rem;
+    }
+}
+

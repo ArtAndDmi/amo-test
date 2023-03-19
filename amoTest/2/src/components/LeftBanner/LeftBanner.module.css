@@ -1,0 +1,51 @@
+.text {
+    width: 36.2rem;
+    height: 11.6rem;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4.8rem;
+    line-height: 5.8rem;
+    text-align: left;
+}
+
+.gradientText {
+    width: 28rem;
+    height: 5.8rem;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 4.8rem;
+    line-height: 5.8rem;
+    background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%), #E4E5EA;
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.description {
+    width: 27.5rem;
+    height: 4.4rem;
+    margin-top: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+}
+
+@media (max-width: 400px) {
+    .text {
+        font-size: 4rem;
+    }
+
+    .description {
+        font-size: 2.3rem;
+        width: 100%;
+    }
+
+    .container {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+}
